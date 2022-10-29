@@ -13,3 +13,4 @@ G, edges = fci(data, independence_test_method="fisherz")
 # visualization
 pdy = GraphUtils.to_pydot(G) 
 pdy.write_png("fci_causal_graph.png")
+ 
